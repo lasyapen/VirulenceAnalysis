@@ -2,7 +2,7 @@ ml BLAST+
 
 makeblastdb -in VFDB_setA_nt.fas -dbtype nucl -out vfdb_nucleotide_db
 
-QUERY="/scratch/lp27068/Olivia1_Data_Reads/virulence_analysis/concatenated.fasta"
+QUERY="/scratch/lp27068/Olivia1_Data_Reads/virulence_analysis/concatenated_query.fasta"
 DB="vfdb_nucleotide_db"
 OUT_TAB="vfdb_blast_results_tabular.txt"
 OUT_STD="vfdb_blast_results_standard.txt"
