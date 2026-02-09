@@ -6,11 +6,11 @@ from collections import defaultdict
 import re
 
 
-BASE_DIR = "/scratch/lp27068/Olivia1_Data_Reads/virulence_analysis"
+BASE_DIR = "virulence_analysis"
 MAG_LENGTHS_FILE = os.path.join(BASE_DIR, "mag_lengths.txt")
 PARSED_OUTPUT_DIR = os.path.join(BASE_DIR, "parsed_output")
 
-CLASSIFICATION_FILE = os.path.join(BASE_DIR, "annotated_blast_results2.txt")  
+CLASSIFICATION_FILE = os.path.join(BASE_DIR, "annotated_blast_results.txt")  
 OUTPUT_CSV = os.path.join(BASE_DIR, "virulence_abundance.csv")
 
 
